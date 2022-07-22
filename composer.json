@@ -1,0 +1,43 @@
+{
+  "name": "lum/lum-router",
+  "description": "Simple application router",
+  "license": "MIT",
+  "authors":
+  [
+    {
+      "name": "Timothy Totten",
+      "email": "supernovus@gmail.com",
+      "role": "Original Author"
+    }
+  ],
+  "require":
+  {
+    "lum/lum-core": "^3.0",
+    "lum/lum-debug": "^1.0",
+    "lum/lum-meta": "^1.0",
+    "lum/lum-file": "^2.2",
+    "lum/lum-web": "^1.0"
+  },
+  "require-dev":
+  {
+    "lum/lum-test": "^3.0"
+  },
+  "autoload":
+  {
+    "psr-4":
+    {
+      "Lum\\Router\\": "lib"
+    }
+  },
+  "scripts":
+  {
+    "test": "lumtest"
+  },
+  "extra":
+  {
+    "branch-alias":
+    {
+      "dev-main": "1.x-dev"
+    }
+  }
+}
