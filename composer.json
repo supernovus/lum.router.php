@@ -14,13 +14,13 @@
   {
     "lum/lum-core": "^3.0",
     "lum/lum-debug": "^1.0",
-    "lum/lum-meta": "^1.0",
-    "lum/lum-file": "^2.2",
-    "lum/lum-web": "^1.0"
+    "lum/lum-meta": "^1.1",
+    "lum/lum-file": "^2.3",
+    "lum/lum-web": "^1.2"
   },
   "require-dev":
   {
-    "lum/lum-test": "^3.0"
+    "lum/lum-test": "^3.1"
   },
   "autoload":
   {
