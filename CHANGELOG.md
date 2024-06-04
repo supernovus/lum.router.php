@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2024-06-04
+### Changed
+- Split debugging related code out of `Router` class into traits.
+- Added plans for an eventual `2.0` release.
+- I actually made these changes in `2024-01-17` but forgot to commit them.
+
 ## [1.1.0] - 2023-07-06
 ### Added
 - New `Info` class that splits a bunch of the methods out of `Router`.
@@ -18,7 +24,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release, ported from old Nano.php library set.
 
-[Unreleased]: https://github.com/supernovus/lum.router.php/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/supernovus/lum.router.php/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/supernovus/lum.router.php/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/supernovus/lum.router.php/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/supernovus/lum.router.php/releases/tag/v1.0.0
 

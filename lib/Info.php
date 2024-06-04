@@ -14,7 +14,6 @@ class Info
 {
   use \Lum\Meta\SetProps;
 
-
   const JSON_TYPE = 'application/json';
   const XML_TYPE  = 'application/xml';
   const HTML_TYPE = 'text/html';
